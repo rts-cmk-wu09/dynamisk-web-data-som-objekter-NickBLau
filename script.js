@@ -61,7 +61,7 @@
 let minListe = { 
 film:{},
 tv:{},
-Spil:{
+spil:{
     rogueLite: [
         "Hades " ,
         {
@@ -121,22 +121,22 @@ Spil:{
  Survivor: 
  [
     "Vampire survivor",
- {
+ [{
     dato: "lorem",
     score: "lorem",
     pris: "lorem",
     publisher: "lorem" 
-  }, 
-  "holocure",
+}], 
+  "holocure",[
   {
     dato: "lorem",
     score: "lorem",
     pris: "lorem",
     publisher: "lorem" 
-  },]
+  }],]
 }
 }
-
-console.log(spil.fps);
+console.log("opgave 3");
+console.log(minListe.spil.Survivor[0]);
 
 
