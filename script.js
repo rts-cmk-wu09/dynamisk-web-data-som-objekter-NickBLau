@@ -87,29 +87,29 @@ spil:{
         publisher: "re-logic",
     } 
 ],
- fps: [
-    "Doom", 
+ fps: {
+    Doom:
 {
+  title: "Doom",
    dato: "lorem",
    score: "lorem",
    pris: "lorem",
    publisher: "lorem" 
  }, 
- "superhot",
+ superhot:
  {
     dato: "lorem",
     score: "lorem",
     pris: "lorem",
     publisher: "lorem" 
   }, 
-  "Counter-strike", 
-  {
+  Counter_strike:{ 
     dato: "lorem",
     score: "lorem",
     pris: "lorem",
     publisher: "lorem" 
   },
-],
+ },
  deckBuilder: [
     "Slay the spire" ,
     {
@@ -120,23 +120,21 @@ spil:{
 }], 
  Survivor: 
  [
-    "Vampire survivor",
- [{
+    "Vampire survivor ",
+ {
     dato: "lorem",
     score: "lorem",
     pris: "lorem",
     publisher: "lorem" 
-}], 
-  "holocure",[
+}, 
+  "holocure",
   {
     dato: "lorem",
     score: "lorem",
     pris: "lorem",
     publisher: "lorem" 
-  }],]
+  }],
 }
 }
 console.log("opgave 3");
-console.log(minListe.spil.Survivor[0]);
-
-
+console.log(minListe.spil.fps);
