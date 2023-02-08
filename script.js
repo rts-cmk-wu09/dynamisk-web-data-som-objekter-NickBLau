@@ -62,20 +62,81 @@ let minListe = {
 film:{},
 tv:{},
 Spil:{
- rogueLite:"Hades",[
-    {
+    rogueLite: [
+        "Hades " ,
+        {
         dato: "september, 2020",
         score: "10/10",
-        pris: "24.50£",
+        pris: "24.50€",
         publisher: "Supergiant games"
-    }
- ],
- 
- sandbox: ["Minecraft", "Terraria"],
- fps: ["Doom", "superhot", "Counter-strike"],
- deckBuilder: "Slay the spire",
- Survivor: ["Vampire survivor", "holocure"]
+    }], 
+    sandBox:[
+        "Minecraft" ,
+    {
+        dato: "november 18, 2011",
+        score: "9/10",
+        pris: "22.47€",
+        publisher: "Mojang",
+    },
+
+    "Terraria", 
+    {
+        dato: "16 maj, 2011",
+        score: "10/10",
+        pris: "9.99€",
+        publisher: "re-logic",
+    } 
+],
+ fps: [
+    "Doom", 
+{
+   dato: "lorem",
+   score: "lorem",
+   pris: "lorem",
+   publisher: "lorem" 
+ }, 
+ "superhot",
+ {
+    dato: "lorem",
+    score: "lorem",
+    pris: "lorem",
+    publisher: "lorem" 
+  }, 
+  "Counter-strike", 
+  {
+    dato: "lorem",
+    score: "lorem",
+    pris: "lorem",
+    publisher: "lorem" 
+  },
+],
+ deckBuilder: [
+    "Slay the spire" ,
+    {
+    dato: "lorem",
+    score: "lorem",
+    pris: "lorem",
+    publisher: "lorem"
+}], 
+ Survivor: 
+ [
+    "Vampire survivor",
+ {
+    dato: "lorem",
+    score: "lorem",
+    pris: "lorem",
+    publisher: "lorem" 
+  }, 
+  "holocure",
+  {
+    dato: "lorem",
+    score: "lorem",
+    pris: "lorem",
+    publisher: "lorem" 
+  },]
 }
 }
 
 console.log(spil.fps);
+
+
