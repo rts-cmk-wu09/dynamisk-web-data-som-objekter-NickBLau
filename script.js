@@ -69,7 +69,7 @@ let minListe = {
           score: "10/10",
           pris: "24.50€",
           publisher: "Supergiant games",
-          platform:["steam", " epic"]
+          store:["steam", " epic"]
       },
       rogueLegacy:
           {
@@ -78,7 +78,7 @@ let minListe = {
           score: "score.lorem",
           pris: "pris.lorem",
           publisher: "publisher.lorem",
-          platform:["lorem", "lorem"]
+          store:["lorem", "lorem"]
       }
 },
   sandbox: 
@@ -89,7 +89,7 @@ let minListe = {
       score: "9/10",
       pris: "22.47€",
       publisher: "Mojang",
-      platform:["minecraft.net", " playstation store"]
+      store:["minecraft.net", " playstation store"]
       
 },
   terraria:
@@ -99,7 +99,7 @@ let minListe = {
       score: "10/10",
       pris: "9.99€",
       publisher: "re-logic",
-      platform:["lorem", "lorem"]
+      store:["lorem", "lorem"]
 }
 
 },
@@ -110,7 +110,7 @@ fps:{doom:
       score: "score.lorem",
       pris: "pris.lorem",
       publisher: "publisher.lorem",
-      platform:["lorem", "lorem"]
+      store:["lorem", "lorem"]
 
   },
   superhot:{
@@ -119,7 +119,7 @@ fps:{doom:
       score: "score.lorem",
       pris: "pris.lorem",
       publisher: "publisher.lorem",
-      platform:["lorem", "lorem"]
+      store:["lorem", "lorem"]
   }
   ,
   counter_strike:{
@@ -128,7 +128,7 @@ fps:{doom:
       score: "score.lorem",
       pris: "pris.lorem",
       publisher: "publisher.lorem",
-      platform:["lorem", "lorem"]
+      store:["lorem", "lorem"]
   }
 
 }
@@ -140,7 +140,7 @@ deckBuilder:{Slay_the_sprire:
       score: "score.lorem",
       pris: "pris.lorem",
       publisher: "publisher.lorem",
-      platform:["lorem", "lorem"]
+      store:["lorem", "lorem"]
 
   }
 }
@@ -152,7 +152,7 @@ Survivor:{vampire_survivor:
       score: "score.lorem",
       pris: "pris.lorem",
       publisher: "publisher.lorem",
-      platform:["lorem", "lorem"]
+      store:["lorem", "lorem"]
 
   },
   holocure: {
@@ -161,7 +161,7 @@ Survivor:{vampire_survivor:
       score: "score.lorem",
       pris: "pris.lorem",
       publisher: "publisher.lorem",
-      platform:["lorem", "lorem"]
+      store:["lorem", "lorem"]
   }
 }
 }
