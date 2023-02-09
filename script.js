@@ -69,11 +69,11 @@ let minListe = {
           score: "10/10",
           pris: "24.50€",
           publisher: "Supergiant games",
-          platform:["steam", "epic"]
+          platform:["steam", " epic"]
       },
-      andet:
+      rogueLegacy:
           {
-          title: "title.lorem",
+          title: "rogue legacy",
           dato: "dato.lorem",
           score: "score.lorem",
           pris: "pris.lorem",
@@ -89,7 +89,7 @@ let minListe = {
       score: "9/10",
       pris: "22.47€",
       publisher: "Mojang",
-      platform:["lorem", "lorem"]
+      platform:["minecraft.net", " playstation store"]
       
 },
   terraria:
@@ -169,4 +169,3 @@ Survivor:{vampire_survivor:
 console.log(minListe.spil);
 console.log(minListe.sandbox.minecraft.title);
 console.log("opgave 3");
-console.log(minListe.spil.fps);
