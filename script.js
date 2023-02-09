@@ -58,83 +58,115 @@
 // }
 
 
-let minListe = { 
-film:{},
-tv:{},
-spil:{
-    rogueLite: [
-        "Hades " ,
-        {
-        dato: "september, 2020",
-        score: "10/10",
-        pris: "24.50€",
-        publisher: "Supergiant games"
-    }], 
-    sandBox:[
-        "Minecraft" ,
-    {
-        dato: "november 18, 2011",
-        score: "9/10",
-        pris: "22.47€",
-        publisher: "Mojang",
-    },
+let minListe = {
+  tv: ["lorem", "lorem"],
+  spil: ["rogueLite", " sandBox", " FPS", " deckBuilder", " survivor"],
+  rogueLites: 
+      {hades:
+          {
+          title: "hades",
+          dato: "september, 2020",
+          score: "10/10",
+          pris: "24.50€",
+          publisher: "Supergiant games",
+          platform:["steam", "epic"]
+      },
+      andet:
+          {
+          title: "title.lorem",
+          dato: "dato.lorem",
+          score: "score.lorem",
+          pris: "pris.lorem",
+          publisher: "publisher.lorem",
+          platform:["lorem", "lorem"]
+      }
+},
+  sandbox: 
+  {minecraft:
+      {
+      title: "minecraft",
+      dato: "november 18, 2011",
+      score: "9/10",
+      pris: "22.47€",
+      publisher: "Mojang",
+      platform:["lorem", "lorem"]
+      
+},
+  terraria:
+      {
+      title: "terraria",
+      dato: "16 maj, 2011",
+      score: "10/10",
+      pris: "9.99€",
+      publisher: "re-logic",
+      platform:["lorem", "lorem"]
+}
 
-    "Terraria", 
-    {
-        dato: "16 maj, 2011",
-        score: "10/10",
-        pris: "9.99€",
-        publisher: "re-logic",
-    } 
-],
- fps: {
-    Doom:
-{
-  title: "Doom",
-   dato: "lorem",
-   score: "lorem",
-   pris: "lorem",
-   publisher: "lorem" 
- }, 
- superhot:
- {
-    dato: "lorem",
-    score: "lorem",
-    pris: "lorem",
-    publisher: "lorem" 
-  }, 
-  Counter_strike:{ 
-    dato: "lorem",
-    score: "lorem",
-    pris: "lorem",
-    publisher: "lorem" 
-  },
- },
- deckBuilder: [
-    "Slay the spire" ,
-    {
-    dato: "lorem",
-    score: "lorem",
-    pris: "lorem",
-    publisher: "lorem"
-}], 
- Survivor: 
- [
-    "Vampire survivor ",
- {
-    dato: "lorem",
-    score: "lorem",
-    pris: "lorem",
-    publisher: "lorem" 
-}, 
-  "holocure",
+},
+fps:{doom:
   {
-    dato: "lorem",
-    score: "lorem",
-    pris: "lorem",
-    publisher: "lorem" 
-  }],
+      title: "doom",
+      dato: "dato.lorem",
+      score: "score.lorem",
+      pris: "pris.lorem",
+      publisher: "publisher.lorem",
+      platform:["lorem", "lorem"]
+
+  },
+  superhot:{
+      title: "superhot",
+      dato: "dato.lorem",
+      score: "score.lorem",
+      pris: "pris.lorem",
+      publisher: "publisher.lorem",
+      platform:["lorem", "lorem"]
+  }
+  ,
+  counter_strike:{
+      title: "counter_strike",
+      dato: "dato.lorem",
+      score: "score.lorem",
+      pris: "pris.lorem",
+      publisher: "publisher.lorem",
+      platform:["lorem", "lorem"]
+  }
+
+}
+,
+deckBuilder:{Slay_the_sprire:
+  {
+      title: "Slay the spire",
+      dato: "dato.lorem",
+      score: "score.lorem",
+      pris: "pris.lorem",
+      publisher: "publisher.lorem",
+      platform:["lorem", "lorem"]
+
+  }
+}
+,
+Survivor:{vampire_survivor:
+  {
+      title: "Vampire survivor",
+      dato: "dato.lorem",
+      score: "score.lorem",
+      pris: "pris.lorem",
+      publisher: "publisher.lorem",
+      platform:["lorem", "lorem"]
+
+  },
+  holocure: {
+      title: "holocure",
+      dato: "dato.lorem",
+      score: "score.lorem",
+      pris: "pris.lorem",
+      publisher: "publisher.lorem",
+      platform:["lorem", "lorem"]
+  }
 }
 }
+    
+console.log(minListe.spil);
+console.log(minListe.sandbox.minecraft.title);
 console.log("opgave 3");
 console.log(minListe.spil.fps);
