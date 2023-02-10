@@ -19,53 +19,42 @@ h2{
     color: red;
 }
 
+.bold{
+    font-weight: bolder;
+}
+
 .text_align_center{
     text-align: center;
 }
 
 .roguelite{
     background-color: rgba(255, 0, 0, 0.7);
-    display: flex;
-    text-align: end;
-    justify-content: center;
-    align-items: center;
-    border: 1px black solid;
-    gap: 10px;
+    font-weight: 100    ;
+
 }
 
 .sandbox{
     background-color: bisque;
-    display: flex;
-    text-align: end;
-    justify-content: center;
-    align-items: center;
-    border: 1px black solid;
-    gap: 10px;
+
 }
 
 
 .fps{
     background-color: mediumseagreen;
-    display: flex;
-    text-align: end;
-    justify-content: center;
-    align-items: center;
-    border: 1px black solid;
-    gap: 10px;
+
 }
 
 .deckbuilder{
     background-color: burlywood;
-    display: flex;
-    text-align: end;
-    justify-content: center;
-    align-items: center;
-    border: 1px black solid;
-    gap: 10px;
+
 }
 
-.Survivor{
+.survivor{
     background-color: lightskyblue;
+
+}
+
+.card_style{
     display: flex;
     text-align: end;
     justify-content: center;

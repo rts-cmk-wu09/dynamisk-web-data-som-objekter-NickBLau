@@ -64,27 +64,27 @@ let minListe = {
   rogueLites: 
       {hades:
           {
-          title: "hades",
+          title: "Hades",
           dato: "september, 2020",
           score: "10/10",
           pris: "24.50€",
           publisher: "Supergiant games",
-          store:["steam", " epic"]
+          store:["Steam", " Epic game store"]
       },
       rogueLegacy:
           {
-          title: "rogue legacy",
-          dato: "dato.lorem",
-          score: "score.lorem",
-          pris: "pris.lorem",
-          publisher: "publisher.lorem",
-          store:["lorem", "lorem"]
+          title: "Rogue legacy",
+          dato: "Juni 27, 2013",
+          score: "9/10",
+          pris: "14,99€",
+          publisher: "Cellar door games",
+          store:["Steam", " GOG"]
       }
 },
   sandbox: 
   {minecraft:
       {
-      title: "minecraft",
+      title: "Minecraft",
       dato: "november 18, 2011",
       score: "9/10",
       pris: "22.47€",
@@ -94,41 +94,41 @@ let minListe = {
 },
   terraria:
       {
-      title: "terraria",
+      title: "Terraria",
       dato: "16 maj, 2011",
       score: "10/10",
       pris: "9.99€",
       publisher: "re-logic",
-      store:["lorem", "lorem"]
+      store:["Steam", " GOG"]
 }
 
 },
 fps:{doom:
   {
-      title: "doom",
-      dato: "dato.lorem",
-      score: "score.lorem",
-      pris: "pris.lorem",
-      publisher: "publisher.lorem",
-      store:["lorem", "lorem"]
+      title: "Doom",
+      dato: "12 maj, 2016",
+      score: "10/10",
+      pris: "19.99€",
+      publisher: "Bethesda Softworks",
+      store:["Steam", " Playstation store"]
 
   },
   superhot:{
-      title: "superhot",
-      dato: "dato.lorem",
-      score: "score.lorem",
-      pris: "pris.lorem",
-      publisher: "publisher.lorem",
-      store:["lorem", "lorem"]
+      title: "Superhot",
+      dato: "25 februar, 2016",
+      score: "9/10",
+      pris: "24,99€",
+      publisher: "SUPERHOT team",
+      store:["Steam", " Epic Game Store"]
   }
   ,
   counter_strike:{
-      title: "counter_strike",
-      dato: "dato.lorem",
-      score: "score.lorem",
-      pris: "pris.lorem",
-      publisher: "publisher.lorem",
-      store:["lorem", "lorem"]
+      title: "Counter_strike Global offensive",
+      dato: "21 august, 2012",
+      score: "9/10",
+      pris: "free",
+      publisher: "Valve corporation",
+      store:["Steam"]
   }
 
 }
@@ -136,36 +136,38 @@ fps:{doom:
 deckBuilder:{Slay_the_sprire:
   {
       title: "Slay the spire",
-      dato: "dato.lorem",
-      score: "score.lorem",
-      pris: "pris.lorem",
-      publisher: "publisher.lorem",
-      store:["lorem", "lorem"]
+      dato: "14 november, 2017",
+      score: "10/10",
+      pris: "24,99€",
+      publisher: "Mega Crit Games",
+      store:["Steam", " GOG"]
 
   }
 }
 ,
 Survivor:{vampire_survivor:
   {
-      title: "Vampire survivor",
-      dato: "dato.lorem",
-      score: "score.lorem",
-      pris: "pris.lorem",
-      publisher: "publisher.lorem",
-      store:["lorem", "lorem"]
+      title: "Vampire survivors",
+      dato: "31 marts 2021",
+      score: "10/10",
+      pris: "3.99€",
+      publisher: "Poncle",
+      store:["Steam", " itch.io"]
 
   },
   holocure: {
-      title: "holocure",
-      dato: "dato.lorem",
-      score: "score.lorem",
-      pris: "pris.lorem",
-      publisher: "publisher.lorem",
-      store:["lorem", "lorem"]
+      title: "Holocure",
+      dato: "22 Juni, 2022",
+      score: "10/10",
+      pris: "free",
+      publisher: "Kay Yu",
+      store:["itch.io"]
   }
 }
 }
-    
+
+
+
 console.log(minListe.spil);
 console.log(minListe.sandbox.minecraft.title);
 console.log("opgave 3");

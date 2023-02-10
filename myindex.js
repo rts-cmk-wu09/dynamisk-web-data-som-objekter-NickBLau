@@ -3,9 +3,8 @@ document.querySelector("#data").innerHTML =
 <h1> Min liste af ting
 
 <h2 class="text_align_center"> sidst spillede genre: ${minListe.spil} </h2>
-<p> rogutelites: ${minListe.rogueLites.hades.title} , ${minListe.rogueLites.rogueLegacy.title}  </p>
 
-<section class="roguelite"> 
+<section class="roguelite card_style"> 
 
 <h3> roguelite: ${minListe.rogueLites.hades.title} </h3>
 <p> dato: ${minListe.rogueLites.hades.dato} </p>
@@ -16,7 +15,7 @@ document.querySelector("#data").innerHTML =
 
 </section>
 
-<section class="roguelite"> 
+<section class="roguelite card_style"> 
 
 <h3> roguelite: ${minListe.rogueLites.rogueLegacy.title} </h3>
 <p> dato: ${minListe.rogueLites.rogueLegacy.dato} </p>
@@ -28,7 +27,7 @@ document.querySelector("#data").innerHTML =
 </section>
 
 
-<section class="sandbox"> 
+<section class="sandbox card_style"> 
 
 <h3> sandbox: ${minListe.sandbox.minecraft.title} </h3>
 <p> dato: ${minListe.sandbox.minecraft.dato} </p>
@@ -40,7 +39,7 @@ document.querySelector("#data").innerHTML =
 </section>
 
 
-<section class="sandbox"> 
+<section class="sandbox card_style"> 
 
 <h3> sandbox: ${minListe.sandbox.terraria.title} </h3>
 <p> dato: ${minListe.sandbox.terraria.dato} </p>
@@ -49,7 +48,7 @@ document.querySelector("#data").innerHTML =
 <p> publisher: ${minListe.sandbox.terraria.publisher} </p>
 <p> store: ${minListe.sandbox.terraria.store} </p>
 </section>
-<section class="fps"> 
+<section class="fps card_style"> 
 
 <h3> fps: ${minListe.fps.doom.title} </h3>
 <p> dato: ${minListe.fps.doom.dato} </p>
@@ -60,7 +59,7 @@ document.querySelector("#data").innerHTML =
 
 </section>
 
-<section class="fps"> 
+<section class="fps card_style"> 
 
 
 <h3> fps: ${minListe.fps.superhot.title} </h3>
@@ -71,7 +70,7 @@ document.querySelector("#data").innerHTML =
 <p> store: ${minListe.fps.superhot.store} </p>
 </section>
 
-<section class="deckbuilder"> 
+<section class="deckbuilder card_style"> 
 
 
 <h3> deckbuilder: ${minListe.deckBuilder.Slay_the_sprire.title} </h3>
@@ -82,7 +81,7 @@ document.querySelector("#data").innerHTML =
 <p> store: ${minListe.deckBuilder.Slay_the_sprire.store} </p>
 </section>
 
-<section class="Survivor"> 
+<section class="survivor card_style"> 
 
 
 <h3> Survivor: ${minListe.Survivor.vampire_survivor.title} </h3>
@@ -93,7 +92,7 @@ document.querySelector("#data").innerHTML =
 <p> store: ${minListe.Survivor.vampire_survivor.store} </p>
 </section>
 
-<section class="Survivor"> 
+<section class="survivor card_style"> 
 
 
 <h3> Survivor: ${minListe.Survivor.holocure.title} </h3>
